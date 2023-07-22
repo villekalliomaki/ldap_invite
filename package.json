@@ -18,6 +18,7 @@
 		"@playwright/test": "^1.28.1",
 		"@sveltejs/adapter-auto": "^2.0.0",
 		"@sveltejs/kit": "^1.20.4",
+		"@types/jsonwebtoken": "^9.0.2",
 		"@typescript-eslint/eslint-plugin": "^5.45.0",
 		"@typescript-eslint/parser": "^5.45.0",
 		"carbon-components-svelte": "^0.78.0",
@@ -37,6 +38,10 @@
 	"type": "module",
 	"dependencies": {
 		"@prisma/client": "^5.0.0",
+		"carbon-icons-svelte": "^12.1.0",
+		"graphql": "^16.7.1",
+		"graphql-request": "^6.1.0",
+		"jsonwebtoken": "^9.0.1",
 		"tslog": "^4.8.2"
 	}
 }

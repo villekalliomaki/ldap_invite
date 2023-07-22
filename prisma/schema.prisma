@@ -24,7 +24,7 @@ model PasswordResetLink {
   expires DateTime?
 }
 
-model Invite {
+model InviteLink {
   id           String    @id @default(uuid())
   created      DateTime  @default(now())
   expires      DateTime?
